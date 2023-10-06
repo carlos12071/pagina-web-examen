@@ -1,0 +1,253 @@
+body{
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(211, 188, 188);
+}
+
+h1{
+    color: rgb(102, 68, 12);
+    margin: 100px;
+    text-align: center;
+    font-size: 5rem;
+}
+
+/* button{
+    background-color: rgb(59, 34, 5);
+    margin-left: 500px;
+    /* margin-right: 50px; */
+    /* border-radius: 10px;
+    padding: 1rem 1rem; */
+     /* width: 200px; 
+} */
+
+#grupodebtn{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#btn1{
+    background-color: rgb(59, 34, 5);
+    border-radius: 10px;
+    padding: 2px 1.9rem;
+}
+
+#btn2{
+    background-color: rgb(59, 34, 5);
+    border-radius: 10px;
+    padding: 2px 1.9rem;
+}
+
+#btn3{
+    background-color: rgb(59, 34, 5);
+    border-radius: 10px;
+    padding: 2px 1.9rem; 
+}
+
+#btn4{
+    background-color: rgb(59, 34, 5);
+    border-radius: 10px;
+    padding: 2px 1.9rem; 
+}
+
+#btn1:hover{
+    background-color: rgb(110, 95, 74);
+    transform: scale(1.2);
+}
+
+#btn2:hover{
+    background-color: rgb(110, 95, 74);
+    transform: scale(1.2);
+}
+
+#btn3:hover{
+    background-color: rgb(110, 95, 74);
+    transform: scale(1.2);
+}
+
+#btn4:hover{
+    background-color: rgb(110, 95, 74);
+    transform: scale(1.2);
+}
+
+/* button:hover{
+    background-color: rgb(110, 95, 74);
+    transform: scale(1.2);
+} */
+
+
+
+h2{
+    font-size: 1.2rem;
+    text-align: center;
+    color: white;
+}
+
+.flex{
+    display: unset;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 0;
+} 
+
+#platillos{
+    width: 300px;
+    height: 200px;
+    margin: 50px 380px;
+    display: grid;
+    grid-template-rows: 300px 300px;
+    grid-template-columns: 600px 600px;
+}
+
+img{
+    margin-right: 455px;
+    width: 150px;
+    height: 150px;
+}
+
+h4{
+    margin-top: -150px;
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-left: 150px;
+}
+
+h5{
+    margin-top: -35px;
+    margin-left: 150px;
+    font-size: 1.8rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+h6{
+    margin-top: -45px;
+    margin-left: 150px;
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+p{
+    margin-top: -55px;
+    margin-left: 150px;
+    font-size: 1rem;
+    text-align: center;
+    color: rgb(95, 94, 94);
+}
+
+hr{
+    width: 600px;
+    height: 2px;
+    background-color: gray;
+    margin: 20px auto;
+}
+
+@media (max-width:640px){
+    
+    #platillos{
+        display: flex;
+        margin: 10px;
+        flex-direction: column
+
+    }
+
+    h1{
+        color: rgb(102, 68, 12);
+        margin: 100px;
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    #btn1{
+        background-color: rgb(59, 34, 5);
+        margin-left: 20px;
+        border-radius: 10px;
+        padding: 2px 1rem;
+    }
+    
+    #btn2{
+        background-color: rgb(59, 34, 5);
+        margin-left: 40px;
+        border-radius: 10px;
+        padding: 2px 1rem;
+    }
+    
+    #btn3{
+        background-color: rgb(59, 34, 5);
+        margin-left: 30px;
+        border-radius: 10px;
+        padding: 2px 1rem; 
+    }
+    
+    #btn4{
+        background-color: rgb(59, 34, 5);
+        margin-left: 30px;
+        border-radius: 10px;
+        padding: 2px 1rem; 
+    }
+    
+    #btn1:hover{
+        background-color: rgb(110, 95, 74);
+        transform: scale(1.2);
+    }
+    
+    #btn2:hover{
+        background-color: rgb(110, 95, 74);
+        transform: scale(1.2);
+    }
+    
+    #btn3:hover{
+        background-color: rgb(110, 95, 74);
+        transform: scale(1.2);
+    }
+    
+    #btn4:hover{
+        background-color: rgb(110, 95, 74);
+        transform: scale(1.2);
+    }
+
+    h4{
+        margin-top: -150px;
+        font-size: 2rem;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        margin-right: -350px;
+    }
+    
+    h5{
+        margin-top: -35px;
+        margin-left: 350px;
+        font-size: 1.8rem;
+        text-align: center;
+        color: rgb(0, 0, 0);
+    }
+    
+    h6{
+        margin-top: -45px;
+        margin-left: 370px;
+        font-size: 1.5rem;
+        text-align: center;
+        color: rgb(0, 0, 0);
+    }
+    
+    p{
+        margin-top: -55px;
+        /* margin-left: 250px; */
+        font-size: 1rem;
+        text-align: center;
+        color: rgb(95, 94, 94);
+        margin-right: -320px;
+    }
+
+    h1{
+        color: rgb(102, 68, 12);
+        margin: 50px;
+        text-align: center;
+        font-size: 5rem;
+    }
+
+}
+    
+    
+    
